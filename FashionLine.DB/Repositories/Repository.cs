@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace FashionLine.DB.Repositories
 {
     public abstract class Repository<T> : IRepository<T> where T : class
-    { 
+    {  
         public Repository(ISession session)
         {
             Session = session;
